@@ -1,0 +1,19 @@
+if( da_br==null ) da_br="";
+
+function makeHTML() {
+	var html = '';
+	html += '<a href="http://m.ad.naver.com/adclick?unit=939E&ac=5930481&src=2387221&br=1922461" style="display:block;background:#fff;">';
+	html += '<span id="nbp_da_img" style="display:block;width:100%;height:50px;background:url(http://adcreative.naver.com/ad3/1060/1060773/1100_240.jpg) repeat-x;background-size:auto 50px;-webkit-background-size:1px 50px;text-decoration:none;text-align:center;">';
+	html += '<img src="http://adcreative.naver.com/ad3/1060/1060773/640100_287.jpg" alt="AD" width="320" height="50" data-media-width="640" data-media-height="100" data-content-type="image" style="vertical-align:top;border:none" />';
+	html +=	'&nbsp;</span>';
+	html += '</a>';
+	
+	return html;
+}
+
+(function run() {
+	var daHTML = makeHTML();
+	var da_dom_id = ''.trim();
+	var tarEl = (da_dom_id.trim().length > 0) ? NBP_CORP.$(da_dom_id) : (typeof nbp_ad !== 'undefined') ? NBP_CORP.$(nbp_ad.mobilenetwork.ad_div_id) : NBP_CORP.$('adw_da');
+	if(tarEl){tarEl.innerHTML = daHTML;}
+})();

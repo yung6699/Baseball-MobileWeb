@@ -1,0 +1,22 @@
+nav ul {
+	border-top: 3px solid #192735;
+	text-align: center;
+}
+header nav li a {
+	text-decoration: inherit;
+	padding: 20px 0px;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+header nav li a:hover {
+	background-color: #192735;
+}
+.menuBtn {	
+	text-align: right;
+}
+.menuBtn img {
+	height: 20px;
+}

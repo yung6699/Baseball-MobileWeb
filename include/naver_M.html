@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)http://m.sports.naver.com/baseball/schedule/index.nhn?category=kbo -->
+<html lang="ko"><style type="text/css" id="_jmc_no_tap_highlight_tag_"></style><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+<title>야구 일정/결과 :: 네이버스포츠</title>
+	<!-- css --> 
+<link rel="stylesheet" type="text/css" href="./naver_M_files/w.css">
+<link rel="stylesheet" type="text/css" href="./naver_M_files/w_new.css">
+<link rel="stylesheet" type="text/css" href="./naver_M_files/e.css">
+<!-- //css -->
+
+
+<script type="text/javascript" src="./naver_M_files/baseJsTop.js"></script>
+
+<script type="text/javascript">
+document.domain = "naver.com";
+var nsc = "Msports.baseball";
+var ispnapp = "false";
+var focus = "";
+var scrolltop = 0;
+
+function getURLHash(){
+	var sSourceURL = window.location.toString();
+	var sURLHash = "";
+	if(sSourceURL.indexOf("#") > -1){
+		sURLHash = sSourceURL.split("#")[1];
+	}
+	return sURLHash;
+}
+
+function tab(){
+	  var oTouch = new jindo.m.Touch(document);
+	        oTouch.attach({
+	        'longTap' : function(oCustomEvt){
+
+	        },
+	        'tap' : function(oCustomEvt){
+	                var size = jindo.$Document().scrollSize();
+	                var w = size.width;
+	                    if (w > 400) {
+	                        return;
+	                    }
+	                    var randomnumber=Math.floor(Math.random()*2);
+	                    if(randomnumber == 0){
+	                    	return;
+	                    }
+                      var x = Math.round(oCustomEvt.nX / 20);
+                      var y = Math.round(oCustomEvt.nY / 20);
+                      var url = document.location.pathname + document.location.search;
+                      if(url =="/"){
+                              url ="/index.nhn";
+                      }
+                      //jindo.$Element('send_position').attr("src", "http://m.sports.naver.com/collect.nhn?url=" + url + "&x=" + (x * 20) + "&y=" + (y * 20));
+	        }
+   });
+}
+
+function initScrollPosition() {
+	var oOS = jindo.$Agent().os();
+	var scrolltop = oOS.android ? 1 : 0;
+	
+	if(focus != "" && location.hash == "") {
+		location.href = "#" + focus;
+	} else if (location.hash == "") {
+		setTimeout(function(){
+			 var currentScrollPos = document.getElementById('body').scrollTop;
+             if (currentScrollPos == 0) {
+                     window.scrollTo(0,scrolltop);
+             }
+		}, 1000);
+	}
+}
+
+exeJs.push(tab);
+exeJs.push(initScrollPosition);
+</script>
+<script type="text/javascript" src="./naver_M_files/baseJsBottomLazy.js"></script><link rel="apple-touch-icon-precomposed" sizes="96x96" href="http://imgsports.naver.net/images/mobile/favicon_20140331/android/android_96x96_XHDPI.png?v=20140401"><link rel="shortcut icon" href="http://imgsports.naver.net/images/mobile/favicon_20140331/favicon.ico?v=20140401"><script src="./naver_M_files/adshow"></script></head>
+<body class="o" id="body">
+
+
+
+<div class="ad_area" style="height:50px;"><h3 class="u_hc">광고</h3><div id="adw_da_top" style="height:50px;"><a href="http://m.ad.naver.com/adclick?unit=939C&ac=5930480&src=2387221&br=1922461" style="display:block;background:#fff;"><span id="nbp_da_img" style="display:block;width:100%;height:50px;background:url(http://adcreative.naver.com/ad3/1060/1060773/1100_240.jpg) repeat-x;background-size:auto 50px;-webkit-background-size:1px 50px;text-decoration:none;text-align:center;"><img src="./naver_M_files/640100_287.jpg" alt="AD" width="320" height="50" data-media-width="640" data-media-height="100" data-content-type="image" style="vertical-align:top;border:none">&nbsp;</span></a></div></div>
+<div style="width: 2px; height: 2px; position: absolute; top: 0; left: 0;"></div>
+<script type="text/javascript" src="./naver_M_files/da.mobile.min.js"></script>
+<script type="text/javascript" src="./naver_M_files/mobilead_min.js"></script>
+<script>
+        var nbp_ad = nbp_ad || {};
+        nbp_ad.mobilenetwork = {
+                ad_cid : 'mweb_835416d2e9bc44e483289ba032dc67b1',
+                ad_div_id : 'adw_da_top'
+        }
+                var adinit = function(){
+                        var adscript = document.createElement('script');
+                        adscript.setAttribute('src','http://m.ad.naver.com/adshow?unit=939C');
+                        document.head.appendChild(adscript);
+                };
+                setTimeout(adinit, 300);
+
+</script>
+
+
+<div class="u_skip"><a href="http://m.sports.naver.com/baseball/schedule/index.nhn?category=kbo#ct">본문 바로가기</a></div>
+<!-- header -->
+<header role="banner">
+	<h1 class="gnb_h1"><a href="http://m.news.naver.com/" class="gnb" onclick="nclk(this, &#39;gnb.news&#39;, &#39;&#39;, &#39;&#39;);"><span>뉴스</span></a><a href="http://m.sports.naver.com/index.nhn" onclick="nclk(this, &#39;gnb.sports&#39;, &#39;&#39;, &#39;&#39;);" class="gnb"><span>스포츠</span></a></h1>
+	<a href="http://m.naver.com/" onclick="nclk(this, &#39;gnb.naver&#39;, &#39;&#39;, &#39;&#39;);" class="gnb naver"><span>NAVER</span></a>
+	<a href="javascript:toggleSearchButton();" class="gnb s_btn" id="searchBtn" onclick="nclk(this, &#39;gnb.search&#39;, &#39;&#39;, &#39;&#39;);"><span>검색</span></a>
+	<form action="http://m.search.naver.com/search.naver" role="search" name="search" id="search" onsubmit="javascript:onSubmitSearch();" style="display:none;">
+		<div id="u_hs" class="u_hs">
+			<div class="u_hsw">
+				<div class="u_itw">
+					<input type="search" name="query" id="query" title="검색어 입력" placeholder="검색어 입력" value="" class="u_it" onfocus="javascript:window.scrollTo(0,34);" autocorrect="off" autocomplete="off" autocapitalize="off" maxlength="255">
+					<input type="hidden" name="where" value="m">
+					<input type="hidden" id="sm" name="sm" value="mtp_hty">
+					<button type="button" class="gnb u_clrt" id="clear_input" onclick="javascript:searchInputClear();">입력 내용 삭제</button> 				
+				</div>
+				<button type="submit" class="gnb u_hssbt u_hssbt_us">통합검색</button>
+			</div>
+		</div>
+		<div id="autocomplete_layer" class="atcp atcpt" style="display: none;">
+			<div class="atcpw">
+				<div class="atcpw2">
+					<ul>
+						<li class="atcpli" onclick="javascript:oAutoComplete.setValue(this);return false;"><a class="atcpa" href="javascript:;">@name@</a><input id="hidden_input" type="hidden" value="@in_txt@"></li>
+					</ul>
+					<p class="atbt"><button type="button" id="close_input" class="atbt_b">닫기</button></p>
+				</div>
+			</div>
+		</div>
+	</form>
+	<div class="u_gnbuw" id="u_layer_top" style="display:none;">
+	</div>
+</header><hr>
+
+<hr>
+<!-- ct -->
+<div id="ct">
+	
+
+
+
+
+<div class="lnb">
+    <span class="grd_prev" style="display: none; z-index: 2001;"></span>
+    <span class="grd_next" style="display: none; z-index: 2001;"></span>
+    <div id="lnb_view" class="_jmc_no_tap_highlight_" style="overflow: hidden; z-index: 2000; position: relative; height: 44px;">
+        <div class="scroller" queryid="C1416820964531445142" style="position: absolute; z-index: 1; left: 0px; top: 0px; -webkit-transition: -webkit-transform; transition: -webkit-transform; -webkit-transform: translate(0px, 0px); height: 100%;">
+            <ul>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/index.nhn" onclick="nclk(this, &#39;tsm.sportshome&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">홈</span></a></li>
+                <li class="tc-tab selected"><a href="http://m.sports.naver.com/baseball/index.nhn" onclick="nclk(this, &#39;tsm.baseball&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">야구</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/worldbaseball/index.nhn" onclick="nclk(this, &#39;tsm.worldbaseball&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">해외야구</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/soccer/index.nhn" onclick="nclk(this, &#39;tsm.soccer&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">축구</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/worldfootball/index.nhn" onclick="nclk(this, &#39;tsm.worldsoccer&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">해외축구</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/basketball/index.nhn" onclick="nclk(this, &#39;tsm.basketball&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">농구</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/volleyball/index.nhn" onclick="nclk(this, &#39;tsm.volleyball&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">배구</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/golf/index.nhn" onclick="nclk(this, &#39;tsm.golf&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">골프</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/general/index.nhn" onclick="nclk(this, &#39;tsm.general&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">일반</span></a></li>
+                <li class="tc-tab "><a href="http://m.sports.naver.com/esports/index.nhn" onclick="nclk(this, &#39;tsm.esports&#39;, &#39;&#39;, &#39;&#39;);"><span class="lnb_mnu">e스포츠</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+
+
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+    <div class="lnb_sub">
+        <ul>
+            
+                
+                    <li style="width:16.1%;"><a href="http://m.sports.naver.com/baseball/news/index.nhn" onclick="nclk(this, &#39;tsm.bnews&#39;, &#39;&#39;, &#39;&#39;);">뉴스</a></li>
+                    <li><a href="http://m.sports.naver.com/baseball/photocenter/index.nhn" onclick="nclk(this, &#39;tsm.bphoto&#39;, &#39;&#39;, &#39;&#39;);">포토</a></li>
+                    <li class="selected"><a href="./naver_M_files/naver_M.html" onclick="nclk(this, &#39;tsm.bschedule&#39;, &#39;&#39;, &#39;&#39;);">일정</a></li>
+                    <li><a href="http://m.sports.naver.com/baseball/vod/index.nhn?category=kbo" onclick="nclk(this, &#39;tsm.bvideo&#39;, &#39;&#39;, &#39;&#39;);">영상</a></li>
+                    <li><a href="http://m.sports.naver.com/baseball/record/index.nhn" onclick="nclk(this, &#39;tsm.brecord&#39;, &#39;&#39;, &#39;&#39;);">순위</a></li>
+                    <li style="width:22%;"><a href="http://m.ya9.naver.com/mobile/gmc/home.nhn" class="ya9"><span>야구9단</span></a></li>
+                
+                
+                
+                
+                
+            
+        </ul>
+    </div>
+
+
+    
+<div class="lnb_space"></div>
+    
+
+
+<script>
+function initLnbScroll() {
+    
+    var bUseCss3d = jindo.m._isUseCss3d();
+    if(bUseCss3d && (jindo.m.getDeviceInfo().galaxyNote || jindo.m.getDeviceInfo().galaxyS3 || (navigator.userAgent.indexOf("LG-") > -1))) {
+        bUseCss3d = false;
+    }
+    
+    var elLnbView = jindo.$Element("lnb_view");
+    if (!elLnbView) {
+        return;
+    }
+    var elScroller = elLnbView.query(".scroller");
+    if (!elScroller) {
+        return;
+    }
+
+    var elLnb = elLnbView.parent();
+    var elGrdPrev = elLnb.query(".grd_prev"), elGrdNext = elLnb.query(".grd_next");
+
+    var oScroll = new jindo.m.Scroll("lnb_view", {
+        bAutoResize: false,
+        bUseHScroll : true,
+        bUseVScroll : false,
+        bUseCss3d : bUseCss3d,
+        bUseScrollbar: false,
+        nHeight: elScroller.height()
+    });
+
+    if (elGrdPrev && elGrdNext) {
+        oScroll.attach({
+            afterScroll : function(evt) {
+                elGrdPrev.visible(evt.nLeft < 0, "block");
+                elGrdNext.visible(evt.nLeft > evt.nMaxScrollLeft, "block");
+            }
+        })
+    }
+
+    function moveSelectedLnb() {
+        var selectedLnb = elScroller.query("li.selected");
+        if (selectedLnb) {
+            var scrollLeft = selectedLnb.parent().offset().left - selectedLnb.offset().left;
+            scrollLeft += parseInt((window.innerWidth - selectedLnb.width()) / 2, 10);
+            oScroll.scrollTo(Math.min(0, scrollLeft), 0)
+        }
+    }
+
+    jindo.m.bindRotate(function() {
+       oScroll.refresh();
+       moveSelectedLnb();
+    });
+
+    jindo.$Fn(moveSelectedLnb).delay(0);
+}
+exeJs.push(initLnbScroll);
+</script>
+
+	<section>
+	 
+		
+        
+		
+		
+		
+		
+        
+		
+	
+	</section>
+	<script>
+	function toggle_worldfootball_menu() {
+		var obj = jindo.$("worldfootball_menu");
+		var menu_obj = jindo.$("menu_mpg2");
+		if (obj.className == "mpk_op") {
+			obj.className = "mpk_fd";
+			obj.innerHTML = "메뉴 접기";
+			menu_obj.style.display = "block";
+		} else {
+			obj.className = "mpk_op";
+			obj.innerHTML = "메뉴 펼치기";
+			menu_obj.style.display = "none";
+		}
+	}
+	</script>
+	
+		
+		
+		
+	<section>
+	<div class="days3">
+		
+			
+			<a href="http://m.sports.naver.com/baseball/schedule/index.nhn?category=kbo&date=20141117" class="prev" onclick="nclk(this, &#39;srt.prev&#39;, &#39;&#39;, &#39;&#39;);"></a>
+		
+		<span class="today">11월 4주</span>
+		
+			
+			<a href="http://m.sports.naver.com/baseball/schedule/index.nhn?category=kbo&date=20141201" class="next" onclick="nclk(this, &#39;srt.next&#39;, &#39;&#39;, &#39;&#39;);"></a>
+		
+	</div>
+	</section>
+
+	<section>
+	
+<div class="no_data">
+	
+		
+			<p>해당 날짜에는 경기가 없습니다.<br>다음 경기는 새로운 시즌 일정이<br>업데이트 되면 제공될 예정입니다.</p>
+		
+		
+	
+</div>
+
+</section>
+
+<section>
+	<div class="gamedata_info">
+        네이버 스포츠에서 제공하는 일정, 결과, 기록 등의 데이터는 '제공처'의 사정에 따라 지연되거나 잘못 표시될 수 있습니다.<br>
+        네이버(주)는 그에 따른 스포츠 데이터의 정확성 및 신뢰성을 담보하지 않습니다.
+    <span>궁금하신 사항은 <a href="http://m.help.naver.com/serviceMain.nhn?falias=mo_sports_web&type=faq">고객센터</a>를 통해서 문의해주시기 바랍니다.</span>
+	</div>
+</section>
+<script type="text/javascript" language="javascript" charset="UTF-8">
+function openCalendar() {
+	location.href = "/baseball/schedule/index.nhn?category=kbo&date=20141124&mode=calendar&league=";
+}
+function closeCalendar() {
+	location.href = "/baseball/schedule/index.nhn?category=kbo&date=20141124&league=";
+}
+function changeLeague(value) {
+	location.href ="/baseball/schedule/index.nhn?category=kbo&date=20141124&league=" + value; 
+}
+</script>
+</div>
+<!-- //ct -->
+
+
+
+
+<div class="u_ft">
+	
+	
+<div class="u_ftsw">
+	<ul class="u_ftmn" id="u_lnb_bottom_menu">
+			<li><a href="http://m.sports.naver.com/index.nhn" onclick="nclk(this, &#39;bsm.sportshome&#39;, &#39;&#39;, &#39;&#39;);">스포츠 홈</a></li>
+		<li><a href="http://m.sports.naver.com/baseball/index.nhn" onclick="nclk(this, &#39;bsm.baseball&#39;, &#39;&#39;, &#39;&#39;);">야구</a></li>
+		<li><a href="http://m.sports.naver.com/worldbaseball/index.nhn" onclick="nclk(this, &#39;bsm.worldbaseball&#39;, &#39;&#39;, &#39;&#39;);">해외야구</a></li>
+		<li><a href="http://m.sports.naver.com/soccer/index.nhn" onclick="nclk(this, &#39;bsm.soccer&#39;, &#39;&#39;, &#39;&#39;);">축구</a></li>
+		<li><a href="http://m.sports.naver.com/worldfootball/index.nhn" onclick="nclk(this, &#39;bsm.worldsoccer&#39;, &#39;&#39;, &#39;&#39;);">해외축구</a></li>
+		<li><a href="http://m.sports.naver.com/basketball/index.nhn" onclick="nclk(this, &#39;bsm.basketball&#39;, &#39;&#39;, &#39;&#39;);">농구</a></li>
+		<li><a href="http://m.sports.naver.com/volleyball/index.nhn" onclick="nclk(this, &#39;bsm.volleyball&#39;, &#39;&#39;, &#39;&#39;);">배구</a></li>
+		<li><a href="http://m.sports.naver.com/golf/index.nhn" onclick="nclk(this, &#39;bsm.golf&#39;, &#39;&#39;, &#39;&#39;);">골프</a></li>
+		<li><a href="http://m.sports.naver.com/general/index.nhn" onclick="nclk(this, &#39;bsm.general&#39;, &#39;&#39;, &#39;&#39;);">일반</a></li>
+		<li><a href="http://m.sports.naver.com/esports/index.nhn" onclick="nclk(this, &#39;bsm.esports&#39;, &#39;&#39;, &#39;&#39;);">e스포츠</a></li>
+		<li><a href="http://m.sports.naver.com/comment/bestcomment.nhn" onclick="nclk(this, &#39;bsm.comment&#39;, &#39;&#39;, &#39;&#39;);">베스트댓글</a></li>
+		<li><a href="http://m.sports.naver.com/radio/home.nhn" onclick="nclk(this, &#39;bsm.radio&#39;, &#39;&#39;, &#39;&#39;);">라디오</a></li>
+
+
+	</ul>
+	
+		
+		
+			<a href="javascript:topPage();" class="u_ftst" onclick="nclk(this, &#39;fot.top&#39;, &#39;&#39;, &#39;&#39;);">맨위로</a>
+		
+	
+</div>
+
+<footer role="contentinfo">
+	<p id="u_ftlkw" class="u_ftlkw">
+
+		<a href="javascript:naverLogin();" class="u_ftlk" onclick="nclk(this, &#39;fot.login&#39;, &#39;&#39;, &#39;&#39;);" id="login_status">로그인</a>
+		
+			
+			
+			
+			<a href="http://sports.news.naver.com/schedule/index.nhn?category=kbo" class="u_ftlk" onclick="nclk(this, &#39;fot.gopc&#39;, &#39;&#39;, &#39;&#39;);">PC버전</a>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            
+			
+            
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+		<a href="http://m.naver.com/services/app" class="u_ftlk" onclick="nclk(this, &#39;fot.apps&#39;, &#39;&#39;, &#39;&#39;);">전체 앱</a>
+		<a href="http://m.naver.com/services.html?f=svc.sports" class="u_ftlk" onclick="nclk(this, &#39;fot.sitemap&#39;, &#39;&#39;, &#39;&#39;);">전체서비스</a>
+	</p>
+
+    <p class="u_crt copyr">
+        본 콘텐츠의 저작권은 네이버 및 제공처에 있으며, 이를 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.
+    </p>
+	
+	<p class="u_crt">
+		<span class="u_cri">
+		<a class="u_cra" href="https://m.help.naver.com/support/service/main.nhn?serviceNo=5610" onclick="nclk(this, &#39;fot.help&#39;, &#39;&#39;, &#39;&#39;);">스포츠 고객센터</a>
+		</span>
+		<span class="u_cri u_cri_v1">
+		<a class="u_cra" href="https://m.help.naver.com/support/issue/report.nhn?serviceNo=5610">오류신고</a>
+		</span>
+	</p>
+	
+	<p class="u_cr">
+		<span class="u_cri">© <a class="u_cra u_cra_v1" href="http://www.navercorp.com/" onclick="nclk(this, &#39;fot.nhncorp&#39;, &#39;&#39;, &#39;&#39;);">NAVER Corp.</a></span>
+		
+			
+			
+		
+	</p>
+	
+</footer>
+</div>
+
+
+<!-- script type="text/javascript" src="http://adimg3.search.naver.net/mobilejs/mobilead_min.js"></script>
+<script>
+(function() {
+    function async_da_banner_load(){
+        try {
+    	new NBP_MOBILEAD({
+			cid: 'mweb_835416d2e9bc44e483289ba032dc67b1',
+			div_id: 'sports_mobile_da_banner'		
+		});
+        } catch(e) {
+        }
+    }
+    window.attachEvent ? window.attachEvent('onload', async_da_banner_load) : window.addEventListener('load', async_da_banner_load, false);
+})();
+</script-->
+
+<script>
+
+function checkLogin() {
+		var cookie = jindo.$Cookie();
+		if (cookie.get('NID_AUT') != null && cookie.get('NID_AUT') != '') {
+			var loginElement = jindo.$Element("login_status");
+			loginElement.html("로그아웃");
+			loginElement.attr("href", "javascript:naverLogout();");
+			loginElement.attr("onClick", "nclk(this, 'fot.logout', '', '');");
+		}
+}
+exeJs.push(checkLogin);
+</script>
+
+<img style="display:none" id="send_position">
+
+
+<script>
+    if(typeof BMR !== "undefined"){
+        BMR.run('http://sp.naver.com/sp');
+    }
+</script>
+<script>lazyloadjs('/js/generated/baseJsBottomLazy.js?v=201407211600');</script>
+
+
+</body></html>

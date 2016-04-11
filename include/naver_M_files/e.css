@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* NHN Web Standard 2Team MJA 110713 */
+
+/* Common ~ Footer */
+body,input,textarea,select,button,table{font-family:'나눔고딕',NanumGothic,'맑은 고딕','Malgun Gothic','돋움',Dotum,'굴림',Gulim,Helvetica,AppleGothic,sans-serif}
+.u_vc{*left:-9999em}
+.u_ts img{_vertical-align:top}
+.u_gnbu_w,.u_gnbu,.u_hsft,.u_ftsw{_zoom:1}
+.atcpa{_white-space:normal}
+
+/* ie7 */
+.u_ts .lg,.u_ts .sv{*text-indent:0;*line-height:0}
+.u_ftmn li{*float:left;*margin-bottom:0}
+.spvs_scr{*margin-bottom:15px;*line-height:40px}
+.spvs_c .vs_kd{*background-color:#787878}
+.u_tab2_l{*float:left;*width:33%}
+.u_pg_top{*position:absolute;*top:0;*right:0;*height:30px}
+.bur .next .next_arr{*line-height:0}
+.spbd .on{*background-color:#267500}
+.bul td.prev,.bur td.next{*background-color:#282a2d;*height:24px}
+.bul th.prev,.bur th.next{*background-color:#303235;*height:23px}
+.bul .prev .prev_arr{*background:url(http://static.news.naver.net/image/sports/mobile/main/u_ic.png) no-repeat 43px -36px}
+.bur .next .next_arr{*background:url(http://static.news.naver.net/image/sports/mobile/main/u_ic.png) no-repeat 36px -55px}
+.lnb_sub li{display:table-cell;*float:left}
+
+/* headline photo viewer for admin 120423 JWM */
+.flick-container .lnk_pht{left:0;margin-left:0;background:#000}
+
+/* adflick */
+.adflick{padding:2px;box-sizing:border-box;-moz-box-sizing:border-box}
+.adflick > a{display:none}
+.wrap{-webkit-transform:none}
+.wrap > div{-webkit-transform:none}
+.content_wrap > div{-webkit-transform:none}
+.content_wrap > header{-webkit-transform:none}
+.wrap_move .adflick div span{-webkit-transition:none;-webkit-transform:none;-webkit-animation:none}
